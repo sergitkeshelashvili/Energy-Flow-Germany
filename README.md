@@ -1,4 +1,4 @@
-# EnergyFlowGermany — Real-Time Energy Data & Intelligence
+# Energy Flow Germany - Real-Time Energy Data & Intelligence
 
 **EnergyFlowGermany** is a containerized data engineering portfolio platform built with **Python 3.12**, **httpx**, **Pydantic v2**, **MongoDB 7**, **FastAPI**, **Streamlit**, and **Docker Compose**.
 
