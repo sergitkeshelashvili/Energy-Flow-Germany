@@ -1,9 +1,12 @@
 # Energy Flow Germany - Real-Time Energy Data & Intelligence
 
-**EnergyFlowGermany** is a containerized data engineering portfolio platform built with **Python 3.12**, **httpx**, **Pydantic v2**, **MongoDB 7**, **FastAPI**, **Streamlit**, and **Docker Compose**.
+**Energy Flow Germany** is a containerized data engineering portfolio platform built with **Python 3.12**, **httpx**, **Pydantic v2**, **MongoDB 7**, **FastAPI**, **Streamlit**, and **Docker Compose**.
 
-It collects public German day-ahead electricity spot prices (**Fraunhofer ISE Energy-Charts**) and hourly meteorological forecasts (**Open-Meteo**), enforces strict schema and array-alignment validation, persists records into **MongoDB 7 time-series collections** with stateful checkpointing and Dead-Letter Queue (DLQ) routing, exposes analytical and baseline forecasting endpoints via **FastAPI**, and visualizes telemetry in a dark SCADA-inspired **Streamlit** control room.
+It collects public German day-ahead electricity spot prices (**Fraunhofer ISE Energy-Charts**) and hourly meteorological forecasts (**Open-Meteo**), enforces strict schema and array-alignment validation, persists records into **MongoDB 7 time-series collections** with stateful checkpointing and Dead-Letter Queue (DLQ) routing, exposes analytical and baseline forecasting endpoints via **FastAPI**, and visualizes telemetry in a dark **Streamlit** control room.
 
+## 🎥 Project Demo
+
+Watch the project demo: https://youtu.be/QBMk2kl4qbk
 ---
 
 ## Table of Contents
