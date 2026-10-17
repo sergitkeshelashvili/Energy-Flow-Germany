@@ -1,0 +1,22 @@
+# Core HTTP & Validation
+httpx>=0.27.0,<1.0.0
+pydantic>=2.7.0,<3.0.0
+pydantic-settings>=2.3.0,<3.0.0
+
+# Database (MongoDB 7 driver)
+pymongo>=4.7.0,<5.0.0
+motor>=3.4.0,<4.0.0
+
+# API Service
+fastapi>=0.111.0,<1.0.0
+uvicorn[standard]>=0.30.0,<1.0.0
+
+# Dashboard & Visualization
+streamlit>=1.35.0,<2.0.0
+pandas>=2.2.0,<3.0.0
+plotly>=5.22.0,<6.0.0
+
+# Testing & Quality
+pytest>=8.2.0,<9.0.0
+pytest-asyncio>=0.23.0,<1.0.0
+respx>=0.21.0,<1.0.0
